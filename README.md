@@ -1,4 +1,4 @@
-# Task 1: Customer Support Ticket Classifier
+# Customer Support Ticket Classifier
 
 ## Overview
 
