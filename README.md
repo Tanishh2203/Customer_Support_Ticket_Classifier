@@ -8,7 +8,7 @@ This notebook implements a machine learning pipeline to classify customer suppor
 
 - Python 3.8+
 - Libraries: pandas, nltk, scikit-learn, textblob, xgboost, imblearn, gradio, matplotlib, seaborn
-- Install: `pip install pandas nltk scikit-learn textblob xgboost imblearn gradio matplotlib seaborn`
+- Install: `pip install pandas nltk scikit-learn xgboost imblearn gradio matplotlib seaborn`
 - NLTK data: punkt, stopwords, wordnet
 
 ## How to Run
@@ -37,7 +37,7 @@ This notebook implements a machine learning pipeline to classify customer suppor
 
 **Model Training**:
 
-- Trained multiple models (SVM, Random Forest, XGBoost, Logistic Regression, Naive Bayes) for both issue type and urgency level classification.
+- Trained multiple models (SVM, Random Forest, XGBoost, Logistic Regression) for both issue type and urgency level classification.
 - Used Stratified K-Fold cross-validation and GridSearchCV for hyperparameter tuning (e.g., tuning `C` for SVM, `max_depth` for Random Forest).
 - Addressed class imbalance with SMOTE, applying a custom sampling strategy to oversample minority classes like "Installation Issue".
 - Evaluated models using classification reports and confusion matrices.
